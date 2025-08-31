@@ -1,8 +1,9 @@
 ---
-layout: post # 使用 ‘post' 布局（稍后我们可以创建它）
+layout: post
 title:  "欢迎来到我的博客！"
 date:   2024-05-27 16:30:00 +0800
 categories: jekyll update
+css: "classic" # 新增：自定义css选择
 ---
 
 这是我的第一篇博客文章！我正在学习如何使用 **Jekyll** 和 **GitHub Pages**。
@@ -14,3 +15,22 @@ categories: jekyll update
 - 插入[链接](https://github.com)
 
 看看效果如何！
+
+---
+
+## 为什么选择 Jekyll
+
+Jekyll 是一个简单而强大的静态网站生成器，适合个人博客和项目文档。  
+通过 GitHub Pages，我可以免费托管我的博客，并且支持自定义域名。
+
+## 我的博客计划
+
+- 分享技术学习笔记
+- 记录业余无线电（Ham）相关内容
+- 发表生活随笔和兴趣爱好
+
+## 后续打算
+
+未来我会不断完善博客内容和样式，欢迎大家留言交流！
+
+> 感谢你的访问，祝你每天开心！

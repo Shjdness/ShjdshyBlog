@@ -1,0 +1,43 @@
+/* 现代风格：大面积留白，绿色点缀，圆角卡片 */
+body {
+    background: #f0f4f8;
+    color: #222;
+    font-family: 'Montserrat', 'Arial', sans-serif;
+}
+
+header {
+    background: #fff;
+    color: #27ae60;
+    padding: 2rem 0;
+    border-bottom: 2px solid #27ae60;
+    box-shadow: 0 2px 8px rgba(39,174,96,0.05);
+}
+
+nav a {
+    color: #27ae60;
+    background: #eafaf1;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: background 0.2s, color 0.2s;
+}
+
+nav a:hover {
+    background: #27ae60;
+    color: #fff;
+}
+
+main {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 24px rgba(39,174,96,0.08);
+    padding: 2.5rem;
+}
+
+footer {
+    background: #eafaf1;
+    color: #27ae60;
+    border-radius: 0 0 16px 16px;
+    padding: 1.2rem;
+}
