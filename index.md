@@ -7,7 +7,7 @@ title: 首页
 <ul>
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+      <h3><a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a></h3>
       <p><small>{{ post.date | date: "%Y-%m-%d" }}</small></p>
       <p>{{ post.excerpt | default: post.content | strip_html | truncatewords: 30 }}</p>
     </li>

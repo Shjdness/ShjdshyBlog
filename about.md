@@ -7,4 +7,4 @@ layout: default
 
 这里是一些关于我的介绍。
 
-[返回首页]({{ site.url }})
+[返回首页]({{ site.baseurl }}/)
