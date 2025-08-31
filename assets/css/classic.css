@@ -1,0 +1,41 @@
+/* 经典风格：简洁明亮，蓝色主色调 */
+body {
+    background: #f5f5f5;
+    color: #222;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header {
+    background: #337ab7;
+    color: #fff;
+    padding: 1.5rem 0;
+    border-radius: 0 0 8px 8px;
+}
+
+nav a {
+    color: #fff;
+    background: #337ab7;
+    border: 1px solid #fff;
+    margin: 0 0.5rem;
+    padding: 0.3rem 1rem;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+nav a:hover {
+    background: #23527c;
+}
+
+main {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(51,122,183,0.08);
+    padding: 2rem;
+}
+
+footer {
+    background: #337ab7;
+    color: #fff;
+    border-radius: 8px 8px 0 0;
+    padding: 1rem;
+}
